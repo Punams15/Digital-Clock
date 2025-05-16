@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #222;
+  font-family: 'Courier New', Courier, monospace;
+   background: url('fullmoon.jpg') no-repeat center center fixed;
+   background-size: cover;
+}
+
+.clock {
+  color: white;
+  font-size: 6rem;
+  letter-spacing: 0.15em;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px whitesmoke;
+}
